@@ -9,9 +9,9 @@
   },
   "app": {
     "recoverableError": {
-      "rootTitle": "Orca hit a renderer error.",
-      "rootDescription": "The app shell could not finish rendering. Retry to remount it, or relaunch Orca if the error persists.",
-      "webTitle": "Orca web hit a renderer error.",
+      "rootTitle": "NODO Terminal hit a renderer error.",
+      "rootDescription": "The app shell could not finish rendering. Retry to remount it, or relaunch NODO Terminal if the error persists.",
+      "webTitle": "NODO Terminal web hit a renderer error.",
       "webDescription": "Retry the web client or reconnect to the paired runtime."
     }
   },
@@ -154,7 +154,7 @@
       },
       "menuBarIcon": {
         "title": "Show Menu Bar Icon",
-        "description": "Keep an Orca shortcut and activity indicator in the macOS menu bar.",
+        "description": "Keep a NODO Terminal shortcut and activity indicator in the macOS menu bar.",
         "keyword": {
           "menuBar": "menu bar",
           "statusItem": "status item",
@@ -211,8 +211,8 @@
   "menu": {
     "checkForUpdates": "Check for Updates...",
     "settings": "Settings",
-    "exploreOrca": "Explore Orca",
-    "gettingStarted": "Getting Started with Orca",
+    "exploreOrca": "Explore NODO Terminal",
+    "gettingStarted": "Getting Started with NODO Terminal",
     "reportCrash": "Report Crash...",
     "file": "File",
     "exit": "Exit",
@@ -223,7 +223,7 @@
     "showStatusBar": "Show Status Bar",
     "showTasksButton": "Show Tasks Button",
     "showAutomationsButton": "Show Automations Button",
-    "showMobileButton": "Show Orca Mobile Button",
+    "showMobileButton": "Show NODO Terminal Mobile Button",
     "showTitlebarAppName": "Show Titlebar App Name",
     "view": "View",
     "reload": "Reload",
@@ -239,12 +239,12 @@
     "selectAll": "Select All"
   },
   "tray": {
-    "openOrca": "Open Orca",
+    "openOrca": "Open NODO Terminal",
     "quit": "Quit",
     "minimizeNotice": {
-      "body": "Orca is still running in the system tray"
+      "body": "NODO Terminal is still running in the system tray"
     },
-    "activityWaiting": "Orca - activity waiting",
+    "activityWaiting": "NODO Terminal - activity waiting",
     "activityWaitingSuffix": "activity waiting"
   },
   "worktreeJumpPalette": {
@@ -17647,6 +17647,10 @@
       "copyMessage": {
         "copied": "Copied",
         "copy": "Copy message"
+      },
+      "speakMessage": {
+        "speak": "Read message aloud",
+        "stop": "Stop reading aloud"
       },
       "scrollMessageToTop": "Scroll this message to top",
       "loadingEarlier": "Loading…",

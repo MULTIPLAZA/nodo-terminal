@@ -5,6 +5,7 @@ import { translate } from '@/i18n/i18n'
 import { basename } from '@/lib/path'
 import type { NativeChatBlock } from '../../../../shared/native-chat-types'
 import { NativeChatCopyButton } from './NativeChatCopyButton'
+import { NativeChatSpeakButton } from './NativeChatSpeakButton'
 import { NativeChatMessageTimestamp } from './NativeChatMessageTimestamp'
 import { nativeChatProviderFrameSummary } from '../../../../shared/native-chat-provider-frame-summary'
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog'
@@ -257,6 +258,7 @@ export function NativeChatAgentControls({
   return (
     <div className={cn('flex items-center gap-1', className)}>
       <NativeChatCopyButton text={markdown} />
+      <NativeChatSpeakButton text={markdown} />
       <button
         type="button"
         onClick={onScrollToTop}
