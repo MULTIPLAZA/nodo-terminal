@@ -1,10 +1,10 @@
 {
   "app": {
     "recoverableError": {
-      "rootTitle": "NODO Terminal tuvo un error de renderizado.",
-      "rootDescription": "El shell de la aplicación no pudo terminar de renderizarse. Vuelva a intentar volver a montarlo o reinicie NODO Terminal si el error persiste.",
-      "webTitle": "NODO Terminal web tuvo un error de renderizado.",
-      "webDescription": "Vuelva a cargar el cliente web o vuelva a conectarse al servidor NODO Terminal vinculado."
+      "rootTitle": "Orca tuvo un error de renderizado.",
+      "rootDescription": "El shell de la aplicación no pudo terminar de renderizarse. Vuelva a intentar volver a montarlo o reinicie Orca si el error persiste.",
+      "webTitle": "Orca web tuvo un error de renderizado.",
+      "webDescription": "Vuelva a cargar el cliente web o vuelva a conectarse al servidor Orca vinculado."
     }
   },
   "githubChecks": {
@@ -38,15 +38,15 @@
       },
       "menuBarIcon": {
         "title": "Mostrar icono en la barra de menús",
-        "description": "Mantén un acceso directo de NODO Terminal e indicador de actividad en la barra de menús de macOS."
+        "description": "Mantén un acceso directo de Orca e indicador de actividad en la barra de menús de macOS."
       }
     }
   },
   "menu": {
     "checkForUpdates": "Buscar actualizaciones...",
     "settings": "Ajustes",
-    "exploreOrca": "Explorar NODO Terminal",
-    "gettingStarted": "Primeros pasos con NODO Terminal",
+    "exploreOrca": "Explorar Orca",
+    "gettingStarted": "Primeros pasos con Orca",
     "reportCrash": "Informar fallo...",
     "file": "Archivo",
     "exit": "Salir",
@@ -57,7 +57,7 @@
     "showStatusBar": "Mostrar barra de estado",
     "showTasksButton": "Botón Mostrar tareas",
     "showAutomationsButton": "Botón Mostrar automatizaciones",
-    "showMobileButton": "Mostrar botón móvil de NODO Terminal",
+    "showMobileButton": "Mostrar botón móvil de Orca",
     "showTitlebarAppName": "Mostrar el nombre de la aplicación de la barra de título",
     "view": "Vista",
     "reload": "Recargar",
@@ -73,12 +73,12 @@
     "selectAll": "Seleccionar todo"
   },
   "tray": {
-    "openOrca": "Abrir NODO Terminal",
+    "openOrca": "Abrir Orca",
     "quit": "Salir",
     "minimizeNotice": {
-      "body": "NODO Terminal sigue ejecutándose en la bandeja del sistema"
+      "body": "Orca sigue ejecutándose en la bandeja del sistema"
     },
-    "activityWaiting": "NODO Terminal: actividad en espera",
+    "activityWaiting": "Orca: actividad en espera",
     "activityWaitingSuffix": "activity waiting"
   },
   "worktreeJumpPalette": {
